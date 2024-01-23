@@ -15,8 +15,7 @@
    limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.ar.core.codelabs.hellogeospatial">
+    xmlns:tools="http://schemas.android.com/tools">
 
   <uses-permission android:name="android.permission.CAMERA"/>
   <uses-permission android:name="android.permission.INTERNET"/>
@@ -52,10 +51,10 @@
 
     <meta-data
         android:name="com.google.android.ar.API_KEY"
-        android:value="@string/GoogleCloudApiKey"/>
+        android:value="AIzaSyC9333Yjf3P_Q9-MCilLW6VBEaSPpcaWCE"/>
 
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="@string/GoogleCloudApiKey" />
+        android:value="AIzaSyC9333Yjf3P_Q9-MCilLW6VBEaSPpcaWCE" />
   </application>
 </manifest>
